@@ -1,0 +1,19 @@
+n1, n2, n3, n4 = map(float, input().split())
+media = (n1*2 + n2*3 + n3*4 + n4*1) / 10
+if media >= 7:
+  print(f'Media: {media:.1f}')
+  print('Aluno aprovado.')
+elif media >= 5 and media <= 6.9:
+  print(f'Media: {media}')
+  print('Aluno em exame.')
+  exame = float(input())
+  print(f'Nota do exame: {exame}')
+  media2 = (exame + media) / 2
+  if media2 >= 5:
+    print('Aluno aprovado.') 
+    print(f'Media final: {media2}')
+  else:
+    print('Aluno reprovado.')
+else:
+  print(f'Media: {media:.1f}')  
+  print('Aluno reprovado.')
