@@ -1,0 +1,5 @@
+n1 = int(input()) 
+h = n1 // 3600
+mi = (n1 - h * 3600) // 60
+seg = (n1 - h *3600 - mi * 60)
+print(f'{h}:{mi}:{seg}')
