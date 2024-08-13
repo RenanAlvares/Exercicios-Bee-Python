@@ -1,0 +1,17 @@
+x = int(input())
+nota100 = x //100
+nota50 = (x - nota100 *100)// 50
+nota20 = (x - (nota100*100 + nota50*50))// 20
+nota10 = (x - (nota100*100 + nota50*50 + nota20*20))// 10
+nota05 = (x - (nota100*100 + nota50*50 + nota20*20 + nota10*10))// 5
+nota02 = (x - (nota100*100 + nota50*50 + nota20*20 + nota10*10 + nota05*5))// 2
+nota01 = (x - (nota100*100 + nota50*50 + nota20*20 + nota10*10 + nota05*5 + nota02*2))
+
+print(x)
+print(f'{nota100} nota(s) de R$ 100,00')
+print(f'{nota50} nota(s) de R$ 50,00')
+print(f'{nota20} nota(s) de R$ 20,00')
+print(f'{nota10} nota(s) de R$ 10,00')
+print(f'{nota05} nota(s) de R$ 5,00')
+print(f'{nota02} nota(s) de R$ 2,00')
+print(f'{nota01} nota(s) de R$ 1,00')
