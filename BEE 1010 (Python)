@@ -1,0 +1,8 @@
+total = 0
+for ind in range(2):
+    item = input().split(" ")
+    x1 = int(item[0])
+    x2 = int(item[1])
+    x3 = float(item[2])
+    total += x2*x3
+print(f'VALOR A PAGAR: R$ {total:.2f}')
