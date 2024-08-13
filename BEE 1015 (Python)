@@ -1,0 +1,4 @@
+xa , ya = map(float , input().split())
+xb , yb = map(float , input().split())
+dist = ((xa - xb)**2 + (ya - yb)**2)** 0.5
+print(f'{dist:.4f}')
