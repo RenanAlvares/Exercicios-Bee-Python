@@ -1,0 +1,4 @@
+n1 = int(input())
+totalgasto = float(input())
+media = n1 / totalgasto
+print(f'{media:.3f} km/l')
