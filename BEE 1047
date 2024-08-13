@@ -1,0 +1,19 @@
+horas = 0
+min = 0
+hi, mi, hf, mf = map(int, input().split())  
+if hi == hf and mi == mf:
+  horas = 24
+if mi != mf:
+  if mi > mf:
+    min = (mf+60) - mi
+    horas -= 1
+  else:
+    min = mf - mi
+if hi != hf:
+  if hi > hf:
+    horas += (hf+24) - hi
+  else:
+    horas += hf - hi
+elif hi == hf and mi > mf:
+  horas += 24
+print(f'O JOGO DUROU {horas} HORA(S) E {min} MINUTO(S)')
