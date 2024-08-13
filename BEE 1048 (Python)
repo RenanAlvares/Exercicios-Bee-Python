@@ -1,0 +1,35 @@
+x = float(input())
+if x <= 400:
+  novo = x + x*0.15
+  dif = novo - x
+  print(f'Novo salario: {novo:.2f}')
+  print(f'Reajuste ganho: {dif:.2f}')
+  print(f'Em percentual: {15} %')
+
+elif x > 400 and x <= 800:
+  novo = x + x*0.12
+  dif = novo - x
+  print(f'Novo salario: {novo:.2f}')
+  print(f'Reajuste ganho: {dif:.2f}')
+  print(f'Em percentual: {12} %')
+
+elif x > 800 and x <= 1200:
+  novo = x + x*0.1
+  dif = novo - x
+  print(f'Novo salario: {novo:.2f}')
+  print(f'Reajuste ganho: {dif:.2f}')
+  print(f'Em percentual: {10} %')
+
+elif x > 1200 and x <= 2000:
+  novo = x + x*0.07
+  dif = novo - x
+  print(f'Novo salario: {novo:.2f}')
+  print(f'Reajuste ganho: {dif:.2f}')
+  print(f'Em percentual: {7} %')
+
+elif x > 2000:
+  novo = x + x*0.04
+  dif = novo - x
+  print(f'Novo salario: {novo:.2f}')
+  print(f'Reajuste ganho: {dif:.2f}')
+  print(f'Em percentual: {4} %')
