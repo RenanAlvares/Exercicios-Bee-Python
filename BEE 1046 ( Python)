@@ -1,0 +1,11 @@
+a, b = map(int, input().split())  
+if a == b:
+  print('O JOGO DUROU 24 HORA(S)')
+else:
+  if a > b:
+    b += 24
+    result = b - a
+    print(f'O JOGO DUROU {result} HORA(S)')
+  elif b > a:
+    result = b - a
+    print(f'O JOGO DUROU {result} HORA(S)')
