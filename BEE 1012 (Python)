@@ -1,0 +1,11 @@
+A , B , C = map(float , input().split())
+triret = A*C/2
+areacirc = 3.14159*(C)**2
+trapezio = ((A+B)*C)/2
+quadrado = B**2
+retan = (A*B)
+print(f'TRIANGULO: {triret:.3f}')
+print(f'CIRCULO: {areacirc:.3f}')
+print(f'TRAPEZIO: {trapezio:.3f}')
+print(f'QUADRADO: {quadrado:.3f}')
+print(f'RETANGULO: {retan:.3f}')
