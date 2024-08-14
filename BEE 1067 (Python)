@@ -1,0 +1,4 @@
+n = int(input())
+for ind in range(n+1):
+    if ind % 2 != 0:
+        print(ind)
