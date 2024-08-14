@@ -1,0 +1,8 @@
+y = 2002
+while True:
+  x = int(input())
+  if x == y:
+    print('Acesso Permitido')
+    break
+  elif x != y:
+    print('Senha Invalida')
