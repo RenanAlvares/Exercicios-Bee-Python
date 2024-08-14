@@ -1,0 +1,8 @@
+x = int(input())
+for ind in range (x):
+  a, b = map(float, input().split())
+  try:
+    divs = a/b
+    print(divs)
+  except ZeroDivisionError:
+    print('divisao impossivel')
