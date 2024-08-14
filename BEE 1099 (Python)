@@ -1,0 +1,16 @@
+soma = 0
+x = int(input())
+
+for ctd in range(x):
+  a, b = map(int, input().split())
+ 
+  if a > b:
+    for ind in range(b+1,a):
+      if ind % 2 != 0:
+        soma += ind
+  elif b > a:
+    for ind in range(a+1,b):
+      if ind % 2 !=0:
+        soma += ind
+  print(soma)
+  soma = 0 
