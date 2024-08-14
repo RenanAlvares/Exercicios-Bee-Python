@@ -1,0 +1,5 @@
+c= 1
+x = int(input())
+for ind in range(1,x+1):
+  c *= ind
+print(c)
