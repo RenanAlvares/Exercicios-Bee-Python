@@ -1,0 +1,9 @@
+x = 0
+ind = 0
+for ind in range(0 , 100):
+  n = int(input())
+  if n > x:
+    x = n
+    y = ind
+print(x)
+print(y+1)
