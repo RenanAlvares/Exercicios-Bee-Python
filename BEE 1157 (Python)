@@ -1,0 +1,4 @@
+x = int(input())
+for ind in range(1,x+1):
+    if x % ind == 0:
+        print(ind)
