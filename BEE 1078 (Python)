@@ -1,0 +1,5 @@
+x = 0
+n = int(input())
+for ind in range(1 , 11):
+  x = ind*n
+  print(f'{ind} x {n} = {x}')
