@@ -1,0 +1,10 @@
+ctd = 0
+media = 0
+while True:
+  x = int(input())
+  if x < 0:
+    break
+  else:
+    media += x
+    ctd += 1
+print(f'{media/ctd:.2f}')
