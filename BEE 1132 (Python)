@@ -1,0 +1,12 @@
+resultado = 0
+a = int(input())
+b = int(input())
+if a > b:
+  for ind in range(b,a+1):
+    if ind % 13 != 0:
+      resultado += ind
+elif b > a:
+  for ind in range(a,b+1):
+    if ind % 13 != 0:
+      resultado += ind
+print(resultado)
