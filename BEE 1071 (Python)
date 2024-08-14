@@ -1,0 +1,15 @@
+soma = 0
+x = int(input())
+y = int(input())
+if y > x:
+  for ind in range(x + 1, y):
+    if ind % 2 != 0:
+      soma += ind 
+     
+else:
+  for ctd in range(y + 1,x):
+    ind = ctd
+    if ind % 2 == 1:
+      soma += ind
+     
+print(soma)
