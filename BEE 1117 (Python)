@@ -1,0 +1,15 @@
+media = 0
+while True:
+  x = float(input())
+  if x >= 0 and x <= 10:
+    media += x
+    break
+  print('nota invalida')
+while True:
+  y = float(input())
+  if y >= 0 and y <= 10:
+    media += y
+    break
+  print('nota invalida')
+media /= 2
+print(f'media = {media:.2f}')
