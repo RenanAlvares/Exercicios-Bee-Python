@@ -1,0 +1,17 @@
+a = int(input())
+for ind in range(a):
+    n = int(input())
+    if n > 0:
+        pos = 'POSITIVE'
+    else:
+        pos = 'NEGATIVE'
+    if n == 0:
+      pos = 'NULL'
+    if n % 2 == 0 and n != 0:
+      positiv = 'EVEN'
+    if n % 2 == 1 and n != 0:
+      positiv = 'ODD'
+    if n != 0:
+      print(f'{positiv} {pos}')
+    else:
+      print(pos) 
