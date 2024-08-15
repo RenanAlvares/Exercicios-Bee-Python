@@ -1,0 +1,11 @@
+dias = 0
+x = int(input())
+for ind in range(x):
+  n = float(input())
+  while True:
+    n = n/2
+    dias += 1
+    if n <= 1:
+      break
+  print(f'{dias} dias')
+  dias = 0
