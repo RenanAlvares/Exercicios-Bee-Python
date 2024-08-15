@@ -1,0 +1,4 @@
+s = 1
+for ind in range(2,101):
+  s += (1/ind)
+print(f'{s:.2f}')
