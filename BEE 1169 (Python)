@@ -1,0 +1,9 @@
+contador = 1
+n = int(input())
+for ind in range(n):
+  casas = int(input())
+  for ind in range(casas):
+    contador = contador*2
+  kg = contador // 12000
+  print(f'{kg} kg')
+  contador = 1
