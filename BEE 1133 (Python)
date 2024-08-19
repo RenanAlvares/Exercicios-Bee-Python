@@ -1,0 +1,10 @@
+x = int(input())
+y = int(input())
+if x > y:
+    for ind in range(y+1,x):
+        if ind % 5 == 2 or ind % 5 == 3:
+            print(ind)
+elif y > x:
+    for ind in range(x+1,y):
+        if ind % 5 == 2 or ind % 5 == 3:
+            print(ind)
